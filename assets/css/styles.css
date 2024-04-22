@@ -2,6 +2,19 @@ body {
   font-family: sans-serif;
 }
 
+.container3 {
+   width: 100%;
+    max-width: 1140px;
+    border: 1px solid rgb(61, 129, 255);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+
+}
+
 .sessao {
   min-height: 100vh;
   display: flex;
@@ -10,12 +23,16 @@ body {
 }
 .sessao.inicio {
   background-color: rgb(152, 94, 206);
+ 
+  
 }
 .sessao.contatos {
   background-color: cadetblue;
 }
-.sessao.sobre {
-  background-color: cornflowerblue;
+.sessao.zendaya {
+  background-color: rgb(100, 149, 237);
+
+
 }
 .sessao.atividades {
   background-color: darksalmon;
