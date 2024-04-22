@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .sessao {
+
+    min-height: 100vh; // ViewPort Height // Altura máxima da área de vibilidade
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.inicio {
+
+         background-color: rgb(152, 94, 206);
+    }
+    &.contatos{
+
+        background-color: cadetblue;
+    }
+    &.sobre {
+
+        background-color: cornflowerblue;
+    }
+    &.atividades {
+
+        background-color: darksalmon;
+    }
+  }

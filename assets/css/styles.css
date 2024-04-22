@@ -1,0 +1,35 @@
+body {
+  font-family: sans-serif;
+}
+
+.sessao {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sessao.inicio {
+  background-color: rgb(152, 94, 206);
+}
+.sessao.contatos {
+  background-color: cadetblue;
+}
+.sessao.sobre {
+  background-color: cornflowerblue;
+}
+.sessao.atividades {
+  background-color: darksalmon;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+}
+.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=styles.css.map */
